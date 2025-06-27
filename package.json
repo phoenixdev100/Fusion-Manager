@@ -1,0 +1,32 @@
+{
+  "name": "fusion-manager-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for bug reporting, moderation and media tracking",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "migrate": "node --experimental-json-modules database/migrate.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "node-fetch": "^3.3.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "bug-reporting",
+    "moderation"
+  ],
+  "author": "krushna06",
+  "license": "MIT"
+}
